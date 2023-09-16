@@ -22,9 +22,7 @@ const std::string out_dir = "out";
 
 const char *kVertexShaderSrc = R"(#version 330 core
 layout (location = 0) in vec2 pos;
-
 uniform vec4 color;
-
 out vec4 inColor;
 
 void main() {
